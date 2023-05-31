@@ -1,10 +1,10 @@
-# wordflows_flutter_jobs
-flutter_jobs
-
+# wordflows\_flutter\_jobs
 笔试题。有问题可以在这里评论 或者邮件我。
+
 文件如果在线不能查看的话，建议：
 - 检查翻墙是否生效
 - git clone，这个好像是不需要翻墙的
+- 分支里有其他题目(除了main)
 
 ## 笔试题.pdf
 你好，感谢你的时间!
@@ -16,14 +16,14 @@ flutter_jobs
 wordflows.json 是需要显示出来的数据。以wordflows.json的结构来讲解
 1. 将这个视频播放出来，显示在屏幕中间。 wordflows.json#video#url
 2. 在视频播放的同时，跟随视频播放的进度，显示字幕。字幕显示在屏幕底部。(效果图 I’ll be happy to reimburese xxx 的部分)。这个案例中，有两个字幕，都需要显示出来。从上到下排列，文字居中。
-- wordflows.json#subtitles[0][‘lines’]
-- wordflows.json#subtitles[1][‘lines’] 
+3. wordflows.json#subtitles[0][‘lines’]
+4. wordflows.json#subtitles[1][‘lines’] 
 3. 在屏幕顶部显示单词。 wordflows.json#words[0] 这个案例中，只有一个单词。
 4. 在字幕中高亮单词。正如效果图中 “I’ll be happy to reimburese xxx” 这句字幕的 ‘reimburese’ 是高亮的。
 需要高亮的词是: 
 - wordflows.json#highlightWords[0][‘subWords’][0] 
 - wordflows.json#highlightWords[0][‘subWords’][1]
-5. 显示圆形头像。如效果图中竖向居中，靠右显示的那个
+- 显示圆形头像。如效果图中竖向居中，靠右显示的那个
 - wordflows.json#user#smallAvatar
 
 ### 你不需要关注的部分
@@ -37,7 +37,7 @@ wordflows.json 是需要显示出来的数据。以wordflows.json的结构来讲
 1. jianhua(AT)qqss.tech
 2. 可以是zip包，但是更建议是github的仓库地址
 3. 邮件中说明你的联系方式和简历。我们将通知面试。
-  
+	  
 ## 效果图.jpeg
 效果图
 
@@ -48,3 +48,8 @@ wordflows.json 是需要显示出来的数据。以wordflows.json的结构来讲
 最终效果视频示例
 ## sample2.mp4
 最终效果视频示例
+
+## 其他题目
+切换分支：
+- master: 播放和视频和显示字幕。主要用到状态管理，可以使用Provider来写逻辑，或使用其他方法。
+- choice: 单词选择。主要用到手势和动画。
