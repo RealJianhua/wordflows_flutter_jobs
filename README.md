@@ -17,13 +17,13 @@
 
 ### 功能
 wordflows.json 是需要显示出来的数据。以wordflows.json的结构来讲解
-1. 将这个视频播放出来，显示在屏幕中间。 wordflows.json#video#url
+1. 将这个视频播放出来，显示在屏幕中间。 
+- wordflows.json#video#url
 2. 在视频播放的同时，跟随视频播放的进度，显示字幕。字幕显示在屏幕底部。(效果图 I’ll be happy to reimburese xxx 的部分)。这个案例中，有两个字幕，都需要显示出来。从上到下排列，文字居中。
-3. wordflows.json#subtitles[0][‘lines’]
-4. wordflows.json#subtitles[1][‘lines’] 
+- wordflows.json#subtitles[0][‘lines’]
+- wordflows.json#subtitles[1][‘lines’] 
 3. 在屏幕顶部显示单词。 wordflows.json#words[0] 这个案例中，只有一个单词。
-4. 在字幕中高亮单词。正如效果图中 “I’ll be happy to reimburese xxx” 这句字幕的 ‘reimburese’ 是高亮的。
-需要高亮的词是: 
+4. 在字幕中高亮单词。正如效果图中 “I’ll be happy to reimburese xxx” 这句字幕的 ‘reimburese’ 是高亮的。需要高亮的词是: 
 - wordflows.json#highlightWords[0][‘subWords’][0] 
 - wordflows.json#highlightWords[0][‘subWords’][1]
 - 显示圆形头像。如效果图中竖向居中，靠右显示的那个
