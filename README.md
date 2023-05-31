@@ -6,8 +6,11 @@
 - git clone，这个好像是不需要翻墙的
 - 分支里有其他题目(除了main)
 
-## 笔试题.pdf
 你好，感谢你的时间!
+
+## 题目介绍
+视频播放，并显示字幕，以及高亮字幕中给定的单词。
+
 ### 要求
 1. 必须使用 Flutter
 2. 可以使用任意插件; 可以使用任何开源代码
@@ -37,16 +40,16 @@ wordflows.json 是需要显示出来的数据。以wordflows.json的结构来讲
 1. jianhua(AT)qqss.tech
 2. 可以是zip包，但是更建议是github的仓库地址
 3. 邮件中说明你的联系方式和简历。我们将通知面试。
-	  
-## 效果图.jpeg
+
+### 效果图.jpeg
 效果图
 
-## wordflows.json
+### wordflows.json
 要用到的数据
 
-## sample1.mp4
+### sample1.mp4
 最终效果视频示例
-## sample2.mp4
+###  sample2.mp4
 最终效果视频示例
 
 ## 其他题目
