@@ -1,50 +1,28 @@
-# wordflows_flutter_jobs
-flutter_jobs
+##  题目介绍
+这是一个单词学习APP的功能。题目给出了一个图形，例如dollar的图形，同时给出了4个选项，例如：dollar、car、thank you、bill。用户在4个选项中，选择正确的选项：dollar。这个功能，通过图形记忆的方式，让用户更容易记忆单词。
 
-笔试题。有问题可以在这里评论 或者邮件我。
-文件如果在线不能查看的话，建议：
-- 检查翻墙是否生效
-- git clone，这个好像是不需要翻墙的
+本题意在考察学习能力，主要用到 Flutter 中的手势和动画。
 
-## 笔试题.pdf
-你好，感谢你的时间!
-### 要求
-1. 必须使用 Flutter
-2. 可以使用任意插件; 可以使用任何开源代码
+##  要求
+1. 必须使用Flutter实现
+2. 可以使用开源组件、搜索来的代码
+3. **项目必须可以Android或iOS真机运行**
 
-### 功能
-wordflows.json 是需要显示出来的数据。以wordflows.json的结构来讲解
-1. 将这个视频播放出来，显示在屏幕中间。 wordflows.json#video#url
-2. 在视频播放的同时，跟随视频播放的进度，显示字幕。字幕显示在屏幕底部。(效果图 I’ll be happy to reimburese xxx 的部分)。这个案例中，有两个字幕，都需要显示出来。从上到下排列，文字居中。
-- wordflows.json#subtitles[0][‘lines’]
-- wordflows.json#subtitles[1][‘lines’] 
-3. 在屏幕顶部显示单词。 wordflows.json#words[0] 这个案例中，只有一个单词。
-4. 在字幕中高亮单词。正如效果图中 “I’ll be happy to reimburese xxx” 这句字幕的 ‘reimburese’ 是高亮的。
-需要高亮的词是: 
-- wordflows.json#highlightWords[0][‘subWords’][0] 
-- wordflows.json#highlightWords[0][‘subWords’][1]
-5. 显示圆形头像。如效果图中竖向居中，靠右显示的那个
-- wordflows.json#user#smallAvatar
+## 功能说明
+以 sampe.mp4 作为模仿对象，实现视频中的功能。
+1. 居中显示的图片为 dollar.png
+2. 周边四个单词，与视频中一致
+3. 无论选择成功和错误(on\_error.mp4)，弹出提示后，都停留在本页，无须像视频中那样跳转到下一题。
+4. 错误和成功的图标，用Icons自带的近似图标替代。
 
-### 你不需要关注的部分
-1. 底部的4个按钮。由于没有切图，你无法实现，但是你也可以用近似的素材替代。 
-2. 顶部的导航条。使用Placeholder占位，或一个近似效果。
-3. 右上⻆的头像。使用Placeholder占位，或一个近似效果。
-### 其他
-再次感谢你的时间，如果你的时间不充裕，或部分效果有难度，那么可以使用替代效果，或者部分不实现，能做多少是多少。但**代码需要能够在真机运行，没有闪退**。
-### 面试
-请将以上项目结果发到:
-1. jianhua(AT)qqss.tech
-2. 可以是zip包，但是更建议是github的仓库地址
-3. 邮件中说明你的联系方式和简历。我们将通知面试。
-  
-## 效果图.jpeg
-效果图
+## 提交
+向我发邮件：
+- jianhua(AT)qqss.tech
 
-## wordflows.json
-要用到的数据
+邮件中附录源代码ZIP，或github链接。
 
-## sample1.mp4
-最终效果视频示例
-## sample2.mp4
-最终效果视频示例
+邮件中附录简历和联系方式，便于我们联系你。
+
+非常感谢你的时间！祝你顺利！
+
+
